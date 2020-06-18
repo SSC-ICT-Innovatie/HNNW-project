@@ -1,0 +1,7 @@
+TAG POS=1 TYPE=BUTTON FORM=ACTION:https://beta.hnnw.nl/login ATTR=TXT:Inloggen
+VERSION BUILD=1005 RECORDER=CR
+URL GOTO=https://beta.hnnw.nl/
+TAG POS=1 TYPE=INPUT:TEXT FORM=ACTION:https://beta.hnnw.nl/login ATTR=ID:input-12 CONTENT=[automated-test-account]
+SET !ENCRYPTION NO
+TAG POS=1 TYPE=INPUT:PASSWORD FORM=ACTION:https://beta.hnnw.nl/login ATTR=ID:input-15 CONTENT=[automated-test-account=password]
+TAG POS=1 TYPE=BUTTON FORM=ACTION:https://beta.hnnw.nl/login ATTR=TXT:Inloggen
